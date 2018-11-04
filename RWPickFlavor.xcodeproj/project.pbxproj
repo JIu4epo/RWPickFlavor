@@ -11,11 +11,15 @@
 		A95B4769218E748100DD6808 /* RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95B475F218E748100DD6808 /* RWPickFlavor.framework */; };
 		A95B476E218E748100DD6808 /* RWPickFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B476D218E748100DD6808 /* RWPickFlavorTests.swift */; };
 		A95B4770218E748100DD6808 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = A95B4762218E748100DD6808 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9EE0765218E77A700728728 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0760218E77A600728728 /* Resources */; };
-		A9EE0766218E77A700728728 /* Categories in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0761218E77A600728728 /* Categories */; };
-		A9EE0767218E77A700728728 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0762218E77A600728728 /* Controllers */; };
-		A9EE0768218E77A700728728 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0763218E77A700728728 /* Views */; };
-		A9EE0769218E77A700728728 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0764218E77A700728728 /* Models */; };
+		A9EE076E218E80EA00728728 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE076D218E80E900728728 /* RGBAColorFromString.swift */; };
+		A9EE077B218E811000728728 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0770218E810F00728728 /* Images.xcassets */; };
+		A9EE077C218E811000728728 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE0772218E811000728728 /* ScoopCell.swift */; };
+		A9EE077D218E811000728728 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE0773218E811000728728 /* ScoopView.swift */; };
+		A9EE077E218E811000728728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EE0774218E811000728728 /* Main.storyboard */; };
+		A9EE077F218E811000728728 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE0775218E811000728728 /* IceCreamView.swift */; };
+		A9EE0780218E811000728728 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE0777218E811000728728 /* PickFlavorViewController.swift */; };
+		A9EE0781218E811000728728 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE0778218E811000728728 /* PickFlavorDataSource.swift */; };
+		A9EE0782218E811000728728 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE077A218E811000728728 /* Flavor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,15 @@
 		A95B4768218E748100DD6808 /* RWPickFlavorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPickFlavorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95B476D218E748100DD6808 /* RWPickFlavorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPickFlavorTests.swift; sourceTree = "<group>"; };
 		A95B476F218E748100DD6808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9EE0760218E77A600728728 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
-		A9EE0761218E77A600728728 /* Categories */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Categories; sourceTree = "<group>"; };
-		A9EE0762218E77A600728728 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
-		A9EE0763218E77A700728728 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		A9EE0764218E77A700728728 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		A9EE076D218E80E900728728 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGBAColorFromString.swift; path = "../../../IceCreamShop/RWPickFlavor-Finished/RWPickFlavor/Categories/RGBAColorFromString.swift"; sourceTree = "<group>"; };
+		A9EE0770218E810F00728728 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9EE0772218E811000728728 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		A9EE0773218E811000728728 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		A9EE0774218E811000728728 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A9EE0775218E811000728728 /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		A9EE0777218E811000728728 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		A9EE0778218E811000728728 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		A9EE077A218E811000728728 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
 		BD3632B27567A5F47B541737 /* Pods-RWPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
 		FFFB1863B46F46830EAA49BC /* Pods-RWPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,12 +104,12 @@
 		A95B4761218E748100DD6808 /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				A9EE0776218E811000728728 /* Controllers */,
+				A9EE0779218E811000728728 /* Models */,
+				A9EE076F218E810F00728728 /* Resources */,
+				A9EE0771218E811000728728 /* Views */,
+				A9EE076A218E80AD00728728 /* Categories */,
 				A95B4762218E748100DD6808 /* RWPickFlavor.h */,
-				A9EE0761218E77A600728728 /* Categories */,
-				A9EE0762218E77A600728728 /* Controllers */,
-				A9EE0764218E77A700728728 /* Models */,
-				A9EE0760218E77A600728728 /* Resources */,
-				A9EE0763218E77A700728728 /* Views */,
 				A95B4763218E748100DD6808 /* Info.plist */,
 			);
 			path = RWPickFlavor;
@@ -114,6 +122,50 @@
 				A95B476F218E748100DD6808 /* Info.plist */,
 			);
 			path = RWPickFlavorTests;
+			sourceTree = "<group>";
+		};
+		A9EE076A218E80AD00728728 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE076D218E80E900728728 /* RGBAColorFromString.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A9EE076F218E810F00728728 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE0770218E810F00728728 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9EE0771218E811000728728 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE0772218E811000728728 /* ScoopCell.swift */,
+				A9EE0773218E811000728728 /* ScoopView.swift */,
+				A9EE0774218E811000728728 /* Main.storyboard */,
+				A9EE0775218E811000728728 /* IceCreamView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9EE0776218E811000728728 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE0777218E811000728728 /* PickFlavorViewController.swift */,
+				A9EE0778218E811000728728 /* PickFlavorDataSource.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9EE0779218E811000728728 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE077A218E811000728728 /* Flavor.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C63F572845384097DCA8E2B7 /* Pods */ = {
@@ -217,11 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9EE0769218E77A700728728 /* Models in Resources */,
-				A9EE0766218E77A700728728 /* Categories in Resources */,
-				A9EE0765218E77A700728728 /* Resources in Resources */,
-				A9EE0767218E77A700728728 /* Controllers in Resources */,
-				A9EE0768218E77A700728728 /* Views in Resources */,
+				A9EE077E218E811000728728 /* Main.storyboard in Resources */,
+				A9EE077B218E811000728728 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EE077C218E811000728728 /* ScoopCell.swift in Sources */,
+				A9EE0781218E811000728728 /* PickFlavorDataSource.swift in Sources */,
+				A9EE077F218E811000728728 /* IceCreamView.swift in Sources */,
+				A9EE076E218E80EA00728728 /* RGBAColorFromString.swift in Sources */,
+				A9EE0782218E811000728728 /* Flavor.swift in Sources */,
+				A9EE077D218E811000728728 /* ScoopView.swift in Sources */,
+				A9EE0780218E811000728728 /* PickFlavorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +519,7 @@
 		A95B4777218E748100DD6808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82HJZHAGHW;
 				INFOPLIST_FILE = RWPickFlavorTests/Info.plist;
@@ -481,6 +538,7 @@
 		A95B4778218E748100DD6808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82HJZHAGHW;
 				INFOPLIST_FILE = RWPickFlavorTests/Info.plist;

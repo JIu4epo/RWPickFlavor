@@ -11,7 +11,7 @@
         <!--Choose Your Flavor-->
         <scene sceneID="B30-iQ-vu8">
             <objects>
-                <viewController storyboardIdentifier="PickFlavorViewController" id="UVM-0Q-4W9" customClass="PickFlavorViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PickFlavorViewController" id="UVM-0Q-4W9" customClass="PickFlavorViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sRg-If-22K"/>
                         <viewControllerLayoutGuide type="bottom" id="MIH-OU-SkA"/>
@@ -150,7 +150,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2s-P7-l5b" sceneMemberID="firstResponder"/>
-                <customObject id="4S9-bY-Srf" customClass="PickFlavorDataSource">
+                <customObject id="4S9-bY-Srf" customClass="PickFlavorDataSource" customModuleProvider="target">
                     <connections>
                         <outlet property="collectionView" destination="zft-ym-2ni" id="4Nw-1k-4ef"/>
                     </connections>
